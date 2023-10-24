@@ -1,0 +1,493 @@
+
+
+
+.body2{
+  background:url('https://c4.wallpaperflare.com/wallpaper/943/325/118/cyan-purple-triangle-symmetry-wallpaper-preview.jpg');
+  overflow-x: hidden;
+  max-width: 100%;
+  background-size: cover;
+}
+.mainnav img{
+  left:5px;
+  padding: 10px;
+}
+
+nav img {
+  width:33px;
+  position: relative;
+  top:1px;
+}
+ nav {
+  font-family: 'Times New Roman', Times, sans-serif;
+  font-size: 20px;
+  box-shadow: 0 5px 20px black;
+}
+.nav-container{
+  background-color:#1d52bafe;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position:sticky;
+  font-size: x-large;
+ 
+} 
+.nav-container nav ul li{
+  position: sticky;
+  top: 0;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 0 0px;
+  margin:0 0px;
+  cursor: pointer;
+
+}
+nav ul li:after{
+  position: absolute;
+  left:35px;
+  bottom: -4px;
+  height:3px;
+  content:'';
+  background: #b689e0;
+  transition: 0.5s;
+  width:0px;
+}
+nav ul li:hover::after{
+ width: 90%;
+}
+
+/*.nav3 img {
+  width:30px;
+}
+.nav3 {
+  background-color: rgb(7, 58, 103);
+  font-family: 'Times New Roman', Times, sans-serif;
+  font-size: 20px;
+  position:-webkit-sticky;
+  position:sticky;
+  top:0;
+  text-align: left;
+  margin-right: 5px;
+
+}*/
+.logo {
+  text-align: left;
+  color: black;
+}
+.logo img {
+  width:60px;
+}
+.logo2 {
+  padding: 2px;
+  color: black;
+}
+.logo2 img {
+  width:27px;
+  position: relative;
+  top:7px;
+}
+.logo2 button{
+  position: absolute;
+  top:1%;
+  right:1%;
+}
+.logo2 a:link {
+  color: black;
+  font-size: 20px;
+}
+h1 {
+  font-family: 'Times New Roman', Times, sans-serif;
+  color: black;
+  position: absolute;
+  width: 212px;
+  height: 65px;
+  left: 60px;
+  top: 20px;
+  font-weight: 500px;
+  font-size: 30px;
+  line-height: 20px;
+}
+/*.nav3 a:link{
+  font-family: 'Times New Roman', Times, sans-serif;
+  color: rgb(248, 242, 242);
+  text-decoration: none;
+  margin-right: 7px;
+  font-size: 25px;
+}
+.nav3 a:visited {
+  color: rgb(248, 242, 242);
+  text-decoration: none;  
+}
+.nav3 a:hover {
+  color: rgb(25, 210, 210);
+}*/
+
+a:hover {
+  color: rgb(0, 0, 0);
+}
+h6{
+  color: #000;
+  text-decoration: underline;
+  font-size: 35px; 
+  position: absolute;
+  left: 400px;
+  top: 120px; 
+  text-align: center;
+  background: -webkit-linear-gradient(rgba(41, 41, 39, 0.9),rgb(73, 48, 172));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.head1{
+  background: -webkit-linear-gradient(rgba(221, 224, 227, 0.9),rgb(131, 87, 184));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+p {
+  font-family: 'Times New Roman', Times, sans-serif;
+  color: #000;
+  font-size: 20px; 
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  width:97%;
+  margin: auto;
+}
+.card1 {
+  
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(2, 2, 88);
+  text-align: center;
+  /*margin-right: 50px;*/
+  float: left;
+  margin: 20px;
+  transition:transform 0.7s;
+
+}
+.card1 img{
+  width:367px;
+  border-radius: 17px;
+  height: 170px;
+}
+h4{
+  font-size: 20px;
+  padding: 5px;
+}
+
+.card1:hover {
+  box-shadow: 5px 5px 5px 5px rgb(50, 48, 48);
+  transform: scale(1.025);
+}
+
+
+/*@media only screen and (min-width: 1024px) {
+  .container header .header-nav-area #nav_container  {
+    display:flex;
+    width:100%;
+  }
+}*/
+
+
+
+/*h3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  background: -webkit-linear-gradient(rgba(220, 228, 118, 0.9),rgb(240, 156, 237));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  font-weight: 400;
+  font-size:xx-large;
+}*/
+.x{
+  background-color: rgb(219, 78, 184);
+  padding:5px;
+}
+.y{
+  background-color: rgb(225, 204, 159);
+  padding:5px;
+}
+.z{
+  background-color: rgb(29, 90, 143);
+  padding:5px;
+}
+
+@media only screen and (max-width:450px) {
+  .container1 {
+    width:99%;
+    display:flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+  }
+  .card1 {
+    width:99%;
+    margin:20px;
+  }
+  .card1 img {
+    width:90%;
+  }
+  .body2 {
+    width:100%;
+  }
+  .nav-container {
+    width:100%;
+  }
+  nav ul li {
+    font-size: 18px;
+  }
+  h2,h3,h4,h5,h6 ,.h55{
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 800px) 
+{
+  .container1 {
+    width:99%;
+    display:flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+  }
+  .card1 {
+    width:99%;
+    margin:20px;
+  }
+  .card1 img {
+      width:90%;
+    }
+  .body2 {
+    width:100%;
+  }
+  .nav-container {
+    width:100%;
+  }
+  nav ul li {
+    font-size: 18px;
+  }
+  h2,h3,h4,h5,h6,.h55 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container1 {
+    width:99%;
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .card1 {
+    width:60%;
+    margin:20px;
+  }
+  .card img {
+    width:50%;
+  }
+  .body2 {
+    width:100%;
+  }
+  .nav-container {
+    width:100%;
+  }
+  nav ul li {
+    font-size: 18px;
+  }
+  h2,h3,h4,h5,h6 ,.h55{
+    font-size: 27px;
+    text-align: center;
+  }
+}
+/*.card1 a {
+  font-family: 'Times New Roman', Times, sans-serif;
+  color: #000;
+  text-decoration: none;
+  font-size: 23px; 
+}
+.card-i {
+  width: 32%;
+  border: 1px black;
+  
+}
+.card-i img {
+  width: 95%;
+  min-height: 95%;
+  border-radius: 25px;
+  padding-top: 5px;
+  padding-left: 7px;
+}
+.card-t {
+  width: 70%;
+  padding: 10px;   
+}
+.card-t1 {
+  text-align: right;
+}
+.i {
+  text-align: center;
+}
+.i img {
+  width: 300px;
+  height: 215px;
+  padding-right: 10px;
+}
+
+.location {
+  text-align: left;
+}
+.location img {
+  width:25px;
+}*/
+.media1 {
+  text-align: right;  
+}
+.media1 img {
+  width:55px;
+}
+/*
+li {
+  margin-bottom: 10px;
+  list-style:none;
+  font-size: larger;    
+}*/
+
+
+/*
+
+.body {
+  background:url('https://png.pngtree.com/thumb_back/fh260/background/20220523/pngtree-elegant-white-texture-background-with-diagonal-lines-image_1399205.jpg');
+  max-width: 100%;
+  overflow-x: hidden;
+  background-size: contain;
+}
+.nav1 {
+  background-color: rgb(7, 58, 103);
+  font-family: 'Times New Roman', Times, sans-serif;
+  font-size: 25px;
+  padding:5px;
+  position:absolute;
+  top:0;
+}
+
+.back1{
+  position: relative;
+  left: 10px;
+  bottom: 39px;
+}
+.logo1 {
+  text-align: left;
+  color: black;
+}
+.logo1 img {
+  width:60px;
+}
+.logo2 {
+  padding: 2px;
+  color: black;
+}
+.logo2 img {
+  width:40px;
+  position: relative;
+  top:10px;
+}
+.logo2 a:link {
+  color: black;
+  font-size: 20px;
+}
+h1 {
+  font-family: 'Times New Roman', Times, sans-serif;
+  color: black;
+  position: absolute;
+  width: 212px;
+  height: 65px;
+  left: 65px;
+  top: 23px;
+  font-weight: 500px;
+  font-size: 35px;
+  line-height: 10px;
+}
+a:link {
+  font-family: 'Times New Roman', Times, sans-serif;
+  color: rgb(248, 242, 242);
+  text-decoration: none;
+  margin-right: 2px;
+}
+a:visited {
+  color: rgb(248, 242, 242);
+  text-decoration: none;  
+}
+a:hover {
+  color: black;
+}
+h2{
+  font-family: 'Times New Roman', Times, sans-serif;
+  color: #000;
+  text-decoration: underline;
+  font-size: 25px; 
+  position: absolute;
+  left: 540px;
+  top: 113px; 
+}
+h3 {
+  font-family: 'Times New Roman', Times, sans-serif; 
+  color: #000;
+  font-size: 23px; 
+}
+p {
+  font-family: 'Times New Roman', Times, sans-serif;
+  color: #000;
+  font-size: 20px; 
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  width:75%;
+  margin: auto;
+}
+.card1:hover {
+  box-shadow: 5px 5px 5px 5px rgb(156, 148, 148);
+}
+.card1 {
+  display: flex;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+  border: 4px solid rgb(2, 2, 88);
+}
+.card1 a {
+  font-family: 'Times New Roman', Times, sans-serif;
+  color: #000;
+  text-decoration: none;
+  font-size: 23px; 
+}
+.card-i {
+  width: 32%;
+  border: 1px black;
+}
+.card-i img {
+  width: 90%;
+  min-height: 95%;
+  border-radius: 25px;
+  padding-top: 5px;
+  padding-left: 7px;
+}
+.card-t {
+  width: 70%;
+  padding: 10px;   
+}
+.card-t1 {
+  text-align: right;
+}
+.i {
+  text-align: center;
+}
+.i img {
+  width: 340px;
+  height: 215px;
+  padding-right: 10px;
+}
+
+.location {
+  text-align: left;
+}
+*/
